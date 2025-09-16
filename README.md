@@ -88,3 +88,34 @@ Ternary operator takes three operands: condition ? expr1 : expr2.
 
 5. Operator Overloading
 C++ supports operator overloading, allowing programmers to redefine the behavior of operators for user-defined data types (classes and structs). This improves code readability and allows objects to be manipulated using intuitive syntax.
+
+ALGORITHM:-
+Start the program.
+Declare integer variables m1, m2, m3, m4, m5 for marks and total for sum of marks.
+Declare a floating-point variable average to store the percentage.
+Display a welcome message for the Marks and Grade Calculator.
+Prompt the user to enter marks for each of the five subjects one by one.
+Read the marks and store them in the respective variables.
+Calculate the total marks = m1 + m2 + m3 + m4 + m5.
+Calculate the average (percentage) = total / 5.0.
+Display the total marks (out of 500) and the percentage obtained.
+Use conditional statements to assign grades:
+If percentage >= 90 → A+
+Else if percentage >= 80 → A
+Else if percentage >= 70 → B+
+Else if percentage >= 60 → B
+Else if percentage >= 50 → C
+Else if percentage >= 40 → D
+Else → F (Fail)
+Display the grade.
+End the program.
+
+CONCLUSION:-
+This program successfully calculates and displays a student’s total marks, percentage, and grade based on the input marks for five subjects.
+
+It demonstrates:
+
+Variable declaration
+Input/output handling
+Arithmetic operations
+Decision-making using conditional statements
